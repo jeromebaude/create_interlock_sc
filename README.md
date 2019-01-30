@@ -13,6 +13,8 @@ Example:
 ```
 python create_sc_config.py 1
 ```
+
+```
 ListenAddr = ":8080"
 DockerURL = "unix:///var/run/docker.sock"
 AllowInsecure = false
@@ -43,3 +45,5 @@ PollInterval = "3s"
      WorkerProcesses = 1
      RlimitNoFile = 65535
      MaxConnections = 2048
+```
+
