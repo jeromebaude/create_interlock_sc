@@ -19,7 +19,7 @@ def section(i):
     print('    ProxyStopGracePeriod = "5s"')
     print('    ProxyConstraints = ["node.labels.com.docker.ucp.orchestrator.swarm==true", "node.platform.os==linux", "node.labels.nodetype==loadbalancer"]')
     print('    ServiceCluster = "sc-%d"' % i)
-    print('    PublishMode = "ingress"')
+    print('    PublishMode = "host"')
     print('    PublishedPort = %d' % (8000+i))
     print('    TargetPort = 80')
     print('    PublishedSSLPort = %d' % (8443+i))

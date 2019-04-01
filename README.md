@@ -34,7 +34,7 @@ PollInterval = "3s"
     ProxyStopGracePeriod = "5s"
     ProxyConstraints = ["node.labels.com.docker.ucp.orchestrator.swarm==true", "node.platform.os==linux", "node.labels.nodetype==loadbalancer"]
     ServiceCluster = "sc-1"
-    PublishMode = "ingress"
+    PublishMode = "host"
     PublishedPort = 8001
     TargetPort = 80
     PublishedSSLPort = 8444
